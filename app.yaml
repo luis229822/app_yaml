@@ -1,7 +1,7 @@
 runtime: php80
 api_version: 1
 handlers:
-- url: /
+- url: /api
   script: index.php
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg))$
